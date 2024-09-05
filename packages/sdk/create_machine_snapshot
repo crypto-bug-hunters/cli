@@ -74,7 +74,6 @@ done
 [[ -n "$output_path" ]] && cmd+=("--store=$output_path")
 [[ -n "$workdir" ]] && cmd+=("--append-init=WORKDIR=$workdir")
 [[ -n "$entrypoint" ]] && cmd+=("--append-entrypoint=$entrypoint")
-cmd+=("--append-bootargs=no4lvl")
 cmd+=("--assert-rolling-template")
 cmd+=("--final-hash")
 
