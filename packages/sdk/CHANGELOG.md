@@ -1,5 +1,11 @@
 # sdk
 
+## 0.11.1
+
+### Patch Changes
+
+-   bde07b9: Fixed CI build for SDK
+
 ## 0.11.0
 
 ### Minor Changes
