@@ -36,7 +36,7 @@ jobs:
               uses: docker/metadata-action@v5
               with:
                   images: |
-                      docker.io/crypto-bug-hunters/sdk,enable=${{ github.event_name != 'pull_request' }}
+                      docker.io/cryptobughunters/sdk,enable=${{ github.event_name != 'pull_request' }}
                       ghcr.io/crypto-bug-hunters/sdk
                   tags: |
                       type=raw,value=${{ steps.package-version.outputs.PACKAGE_VERSION }},enable=${{ github.event_name == 'push' }}
