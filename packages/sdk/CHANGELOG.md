@@ -1,5 +1,11 @@
 # sdk
 
+## 0.11.0
+
+### Minor Changes
+
+-   b984186: Remove `no4lvl` bootarg
+
 ## 0.10.0
 
 ### Minor Changes
